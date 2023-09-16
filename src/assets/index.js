@@ -7,6 +7,7 @@ import logo from './logo/logo-black.png';
 import logotext from './logo/logo-text-black.png';
 
 import shaq from './personal/shaq.png';
+import usama from './personal/usama.png'
 
 import backend from './icons/backend.png';
 import ux from './icons/ux.png';
@@ -44,6 +45,7 @@ import kelhel from './company/kelhel.png';
 import microverse from './company/microverse.png';
 
 import komikult from './projects/komikult.png';
+import twitter from './projects/twitter.png'
 import leaderboard from './projects/leaderboard.png';
 import math from './projects/math-magicians.png';
 import movie from './projects/movie-metro.png';
@@ -58,6 +60,7 @@ export {
   logo,
   logotext,
   shaq,
+  usama,
   backend,
   ux,
   frontend,
@@ -87,6 +90,7 @@ export {
   tailwind,
   typescript,
   komikult,
+  twitter,
   leaderboard,
   math,
   movie,

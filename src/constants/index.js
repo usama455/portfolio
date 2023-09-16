@@ -9,20 +9,15 @@ import {
   css,
   reactjs,
   redux,
-  tailwind,
   nodejs,
   git,
   figma,
-  docker,
   postgresql,
-  rubyrails,
-  graphql,
-  komikult,
+  twitter,
   leaderboard,
   math,
   movie,
   nyeusi,
-  space,
   coverhunt,
   dcc,
   kelhel,
@@ -88,22 +83,22 @@ const technologies = [
     name: 'Redux Toolkit',
     icon: redux,
   },
-  {
-    name: 'Tailwind CSS',
-    icon: tailwind,
-  },
+  // {
+  //   name: 'Tailwind CSS',
+  //   icon: tailwind,
+  // },
   {
     name: 'Node JS',
     icon: nodejs,
   },
-  {
-    name: 'Rails',
-    icon: rubyrails,
-  },
-  {
-    name: 'graphql',
-    icon: graphql,
-  },
+  // {
+  //   name: 'Rails',
+  //   icon: rubyrails,
+  // },
+  // {
+  //   name: 'Mongo DB',
+  //   icon: graphql,
+  // },
   {
     name: 'postgresql',
     icon: postgresql,
@@ -116,48 +111,48 @@ const technologies = [
     name: 'figma',
     icon: figma,
   },
-  {
-    name: 'docker',
-    icon: docker,
-  },
+  // {
+  //   name: 'docker',
+  //   icon: docker,
+  // },
 ];
 
 const experiences = [
   {
-    title: 'Front-End Developer',
-    company_name: 'Cover Hunt',
+    title: 'Associate Software Engineer',
+    company_name: 'PearlGates Software Solutions',
     icon: coverhunt,
     iconBg: '#333333',
-    date: 'Aug 2021 - Feb 2022',
-  },
-  {
-    title: 'Mentor (Volunteer)',
-    company_name: 'Microverse',
-    icon: microverse,
-    iconBg: '#333333',
-    date: 'Mar 2022 - May 2022',
-  },
-  {
-    title: 'Junior Software Engineer',
-    company_name: 'Kelhel',
-    icon: kelhel,
-    iconBg: '#333333',
-    date: 'May 2022 - Oct 2022',
+    date: 'July 2019 - February 2020',
   },
   {
     title: 'Full Stack Developer',
-    company_name: 'Diversity Cyber Council',
+    company_name: `Isaacs Code`,
+    icon: microverse,
+    iconBg: '#333333',
+    date: 'Mar 2020 - Mar 2021',
+  },
+  {
+    title: 'Full Stack Developer',
+    company_name: 'AI Sight',
+    icon: kelhel,
+    iconBg: '#333333',
+    date: 'April 2021 - Mar 2022',
+  },
+  {
+    title: 'Sr. Full Stack Developer',
+    company_name: 'OneStream Live',
     icon: dcc,
     iconBg: '#333333',
-    date: 'Sep 2022 - Present',
+    date: 'April 2022 - Present',
   },
 ];
 
 const projects = [
   {
     id: 'project-1',
-    name: 'KomiKult',
-    description: 'A comic characters list app that displays Marvel characters.',
+    name: 'X -Twitter- Clone',
+    description: 'A basic clone for X (formerly known as Twitter) ',
     tags: [
       {
         name: 'react',
@@ -172,9 +167,9 @@ const projects = [
         color: 'pink-text-gradient',
       },
     ],
-    image: komikult,
-    repo: 'https://github.com/shaqdeff/KomiKult',
-    demo: 'https://shaqdeff.github.io/KomiKult/',
+    image: twitter,
+    repo: 'https://github.com/usama455/twitter-clone',
+    demo: 'https://twitter-clone-fe-six.vercel.app/signin',
   },
   {
     id: 'project-2',
